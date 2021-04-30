@@ -16,7 +16,7 @@
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="30dp" />
+            android:layout_height="15dp" />
 
         <TextView
             android:id="@+id/tvLastWorkout"
@@ -44,7 +44,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="130dp"
+            android:layout_height="80dp"
             android:orientation="horizontal">
 
             <ImageButton
@@ -53,7 +53,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="btnStartClicked"
-                android:scaleType="fitXY"
+                android:scaleType="centerInside"
                 android:src="@drawable/play" />
 
             <ImageButton
@@ -62,7 +62,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="btnPauseClick"
-                android:scaleType="fitXY"
+                android:scaleType="centerInside"
                 android:src="@drawable/pause" />
 
             <ImageButton
@@ -71,7 +71,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="btnStopClick"
-                android:scaleType="fitXY"
+                android:scaleType="centerInside"
                 android:src="@drawable/stop" />
         </LinearLayout>
 
